@@ -10,6 +10,8 @@ Este directorio contiene los ejercicios correspondientes a este trabajo práctic
 | Nº | Archivo | Ejecución |
 |---:|---|---|
 | 1 | `tp01_ej01_mayor_unico.py` | `python tp01_ej01_mayor_unico.py` |
+| 2 | `tp01_ej02_fecha_valida.py` | `python tp01_ej02_fecha_valida.py` |
+| 3 | `tp01_ej03_gasto_subte.py` | `python tp01_ej03_gasto_subte.py` |
 
 ## Ejecutar un ejercicio
 
