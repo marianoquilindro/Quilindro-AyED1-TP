@@ -12,6 +12,9 @@ Este directorio contiene los ejercicios correspondientes a este trabajo práctic
 | 1 | `tp02_ej01_operaciones_lista.py` | `python tp02_ej01_operaciones_lista.py` |
 | 2 | `tp02_ej02_repetidos_unicos.py` | `python tp02_ej02_repetidos_unicos.py` |
 | 3 | `tp02_ej03_cuadrados.py` | `python tp02_ej03_cuadrados.py` |
+| 4 | `tp02_ej04_eliminar_valores.py` | `python tp02_ej04_eliminar_valores.py` |
+| 5 | `tp02_ej05_lista_ordenada.py` | `python tp02_ej05_lista_ordenada.py` |
+| 6 | `tp02_ej06_normalizar.py` | `python tp02_ej06_normalizar.py` |
 
 ## Ejecutar un ejercicio
 
