@@ -1,8 +1,8 @@
 import random as rn
 
-def _generar_lista (cantidad: int) -> list:
+def _generar_lista (cantidad: int) -> list[int]:
     """
-    Contrato: Genera una lista de numeros al azar entre 1 y 100
+    Contrato: Genera una lista de números al azar entre 1 y 100
     
     Precondicion: cantidad debe ser un entero positivo
 
@@ -19,11 +19,11 @@ def _generar_lista (cantidad: int) -> list:
 
 def _impar (numero: int) -> bool:
     """
-    Contrato: Determina si un numero es impar
+    Contrato: Determina si un número es impar
 
     Precondicion: numero debe ser un entero
     
-    Postcondicion: Devuelve True si el numero es impar, Falso si no lo es
+    Postcondicion: Devuelve True si el número es impar, Falso si no lo es
 
     """
 
@@ -43,7 +43,7 @@ def main() -> None:
     
     """
 
-    cantidad = int(input("ingrese la cantidad de numeros a generar: "))
+    cantidad = int(input("ingrese la cantidad de números a generar: "))
 
     lista = _generar_lista(cantidad)
 

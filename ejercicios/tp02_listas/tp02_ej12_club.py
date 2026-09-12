@@ -1,6 +1,6 @@
-def _cargar_ingresos () -> list:
+def _cargar_ingresos () -> list[int]:
     """
-    Contrato: Carga los numeros de socios que ingresaron an club, la carga termina cuando se ingresa 0
+    Contrato: Carga los números de socios que ingresaron an club, la carga termina cuando se ingresa 0
     
     Precondicion: el número de socio debe ser un número entero
 
@@ -19,7 +19,7 @@ def _cargar_ingresos () -> list:
     return ingresos
 
 
-def _obtener_unicos(lista:list) -> list:
+def _obtener_unicos(lista:list[int]) -> list[int]:
     """
     Contrato: Genera una lista con la lista unica de socios ingresados sin repetir
 
@@ -38,7 +38,7 @@ def _obtener_unicos(lista:list) -> list:
     return lista_unicos
 
 
-def _eliminar_socio(ingresos: list, numero_socio: int) -> int:
+def _eliminar_socio(ingresos: list[int], numero_socio: int) -> int:
     """
     Contrato: Elimina todos los ingresos de un socio de la lista e informa cuantos ingresos se eliminaron
     
@@ -84,7 +84,7 @@ def main() -> None:
     print("Registro de entradas antes de la baja:")
     print(ingresos)
 
-    socio_a_eliminar = int(input("Ingrese el numero de socio a dar de baja: "))
+    socio_a_eliminar = int(input("Ingrese el número de socio a dar de baja: "))
     cantidad_eliminados = _eliminar_socio(ingresos,socio_a_eliminar)
 
     print("Registro de entradas despues de la baja")

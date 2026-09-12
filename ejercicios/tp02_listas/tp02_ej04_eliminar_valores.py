@@ -1,10 +1,10 @@
-def _cargar_lista() -> list:
+def _cargar_lista() -> list[int]:
     """
     Contrato: Carga una lista con números enteros ingresados por el usuario, la carga se finaliza cuando el usuario ingresa -1
     
-    Precondiciones: El usuario debe ingresar numeros enteros
+    Precondiciones: El usuario debe ingresar números enteros
 
-    Postcondicion: Devuelve una lista con los numeros ingresados, excluyendo el -1
+    Postcondicion: Devuelve una lista con los números ingresados, excluyendo el -1
     
     """
     lista =[]
@@ -17,7 +17,7 @@ def _cargar_lista() -> list:
 
     return lista
 
-def _eliminar_valores (lista_original: list, lista_valores: list) -> None:
+def _eliminar_valores (lista_original: list[int], lista_valores: list[int]) -> None:
     """
     Contrato: Elimina de la lista original todas las apariciones de un valor que este en la losta de valores a eliminar
 

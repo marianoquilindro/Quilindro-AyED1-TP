@@ -1,6 +1,6 @@
 import random as rn
 
-def _cargar_lista () -> list:
+def _cargar_lista () -> list[int]:
     """
     Contrato: Carga una lista con números al azar de cuatro digitos, la cantidad de elementos tambien es un número al azar de dos digitos
 
@@ -20,7 +20,7 @@ def _cargar_lista () -> list:
 
     return lista
 
-def _calcular_producto (lista: list) -> int:
+def _calcular_producto (lista: list[int]) -> int:
     """
     Contrato: Calcula la multiplicación de todos los elementos de la lista
 
@@ -38,7 +38,7 @@ def _calcular_producto (lista: list) -> int:
 
     return producto
 
-def _borrar_apariciones (lista: list, valor: int) -> None:
+def _borrar_apariciones (lista: list[int], valor: int) -> None:
     """
     Contrato: Elimila todas las apariciones de un valor en la lista
 
@@ -51,7 +51,7 @@ def _borrar_apariciones (lista: list, valor: int) -> None:
         lista.remove(valor)
 
 
-def _es_capicua (lista: list) -> bool:
+def _es_capicua (lista: list[int]) -> bool:
     """
     Contrato: Determina si una lista es capicua
     
