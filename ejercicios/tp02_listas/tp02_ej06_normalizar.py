@@ -1,6 +1,6 @@
-def _normalizar(lista: list) -> list:
+def _normalizar(lista: list[int]) -> list[float]:
     """
-    Contrato: Normaliza una lista de numeros enteros, divide los elementos por la suma total de todos los elementos de la lista y los devuelve en una nueva lista
+    Contrato: Normaliza una lista de números enteros, divide los elementos por la suma total de todos los elementos de la lista y los devuelve en una nueva lista
 
     Precondicion: lista no debe ser vacia y debe contener enteros
 

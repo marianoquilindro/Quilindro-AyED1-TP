@@ -1,6 +1,6 @@
-def _generar_cuadrados(n: int) -> list:
+def _generar_cuadrados(n: int) -> list[int]:
     """
-    Contrato: Crea una lista con los cuadrados de los numeros entre 1 y n
+    Contrato: Crea una lista con los cuadrados de los números entre 1 y n
     
     Precondicion: n debe ser un entero positivo
 
@@ -17,7 +17,7 @@ def _generar_cuadrados(n: int) -> list:
 
     return lista
 
-def _guardar_ultimos_diez (lista: list) -> list:
+def _guardar_ultimos_diez (lista: list[int]) -> list[int]:
     """
     Contrato: Imprime los ultimos 10 elementos de una lista, si tiene menos de 10 elementos muestra todos
     

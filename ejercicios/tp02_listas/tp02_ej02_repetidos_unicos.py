@@ -1,8 +1,8 @@
 import random as rn
 
-def _cargar_lista (n: int) -> list:
+def _cargar_lista (n: int) -> list[int]:
     """
-    Contrato: Carga una lista de n numeros aleatorios entre 1 y 100
+    Contrato: Carga una lista de n números aleatorios entre 1 y 100
 
     Precondiciones: n debe ser un entero positivo y se debe importar la libreria random para el uso de la función
 
@@ -19,7 +19,7 @@ def _cargar_lista (n: int) -> list:
 
     return lista
 
-def _tiene_repetidos(lista: list) -> bool:
+def _tiene_repetidos(lista: list[int]) -> bool:
     """
     Contrato: Determina si una lista tiene algun elemento repetido
     
@@ -35,7 +35,7 @@ def _tiene_repetidos(lista: list) -> bool:
 
     return False
 
-def _obtener_unicos (lista: list) -> list:
+def _obtener_unicos (lista: list[int]) -> list:
     """
     Contrato: Genera una lista nueva con los elementos que no se repiten de la lista original
     
