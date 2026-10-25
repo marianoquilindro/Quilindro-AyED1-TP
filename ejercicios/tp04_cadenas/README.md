@@ -19,6 +19,9 @@ Este directorio contiene los ejercicios correspondientes a este trabajo práctic
 | 8 | `tp04_ej08_ultimos_caracteres.py` | `python tp04_ej08_ultimos_caracteres.py` |
 | 9 | `tp04_ej09_ordenar_por_longitud.py` | `python tp04_ej09_ordenar_por_longitud.py` |
 | 10 | `tp04_ej10_reemplazar_palabra.py` | `python tp04_ej10_reemplazar_palabra.py` |
+| 11 | `tp04_ej11_contar_subsecuencia.py` | `python tp04_ej11_contar_subsecuencia.py` |
+| 12 | `tp04_ej12_baraja.py` | `python tp04_ej12_baraja.py` |
+| 13 | `tp04_ej13_numero_a_letras.py` | `python tp04_ej13_numero_a_letras.py` |
 
 ## Ejecutar un ejercicio
 
