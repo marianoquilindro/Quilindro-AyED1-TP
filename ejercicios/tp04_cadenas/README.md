@@ -22,6 +22,7 @@ Este directorio contiene los ejercicios correspondientes a este trabajo práctic
 | 11 | `tp04_ej11_contar_subsecuencia.py` | `python tp04_ej11_contar_subsecuencia.py` |
 | 12 | `tp04_ej12_baraja.py` | `python tp04_ej12_baraja.py` |
 | 13 | `tp04_ej13_numero_a_letras.py` | `python tp04_ej13_numero_a_letras.py` |
+| 14 | `tp04_ej14_validar_email.py` | `python tp04_ej14_validar_email.py` |
 
 ## Ejecutar un ejercicio
 
