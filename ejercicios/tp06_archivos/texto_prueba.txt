@@ -1,0 +1,14 @@
+Primera linea de prueba
+El veloz murcielago hindu comia feliz cardillo y kiwi
+La cigüeña tocaba el saxofon detras del palenque de paja
+Registro corto
+Otra linea con acentos: canción, árbol, niño, pingüino
+1234567890
+Esta es una linea un poco mas larga para que las partes tengan distinto tamaño
+Fin del primer bloque
+Segunda tanda de registros
+Hola mundo
+Los archivos se dividen sin partir ningun registro
+Cada parte termina justo despues de un salto de linea
+Ultima linea del archivo de prueba
+ 
