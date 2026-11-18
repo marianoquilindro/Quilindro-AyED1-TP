@@ -14,6 +14,7 @@ Este directorio contiene los ejercicios correspondientes a este trabajo práctic
 | 3 | `tp06_ej03_alturas_atletas.py` | `python tp06_ej03_alturas_atletas.py` |
 | 4 | `tp06_ej04_eliminar_comentarios.py` | `python tp06_ej04_eliminar_comentarios.py` |
 | 5 | `tp06_ej05_convertir_csv.py` | `python tp06_ej05_convertir_csv.py` |
+| 6 | `tp06_ej06_hotel.py` | `python tp06_ej06_hotel.py` |
 
 ## Ejecutar un ejercicio
 
